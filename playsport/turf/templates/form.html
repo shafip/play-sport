@@ -1,0 +1,23 @@
+{% extends 'main.html' %}
+{% load static %}
+{% block content %}
+<div class="row">
+    <div class="col-4">
+
+    </div>
+    <div class="col-4">
+        <h1>Fill the Form </h1>
+<form action="{% url 'check' %}" method="post">
+    {% csrf_token %}
+    {{ form }}
+    <input type="submit" value="Submit">
+</form>
+
+    </div>
+    <div class="col-4">
+
+    </div>
+</div>
+
+
+{% endblock %}

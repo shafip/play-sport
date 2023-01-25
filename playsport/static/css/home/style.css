@@ -1,0 +1,84 @@
+.pad{
+    padding: 50px 80px;
+}
+#feature{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+     
+}
+#feature .fea{
+    width: 180px;
+    border: 1px solid rgb(231, 228, 228);
+    align-items: center;
+    padding: 25px 15px;
+    margin: 15px 0;
+
+}
+#feature .fea:hover{
+    background-color: #e3e6f3;
+}
+#feature .fea h5{
+    position: relative;
+    text-align: center;
+    font-size: 15px;
+    background-color: rgba(190, 58, 58, 0.5);
+    padding: 10px ;
+    top: 13px;
+    border-radius: 10px;
+    display: inline block;
+    color: rgb(26, 12, 160);
+}
+#feature .fea:nth-child(2) h5{
+    color: rgb(238, 48, 48);
+}
+#feature .fea:nth-child(3) h5{
+    color: rgb(17, 105, 14);
+}
+#feature .fea:nth-child(4) h5{
+    color: rgb(219, 22, 22);
+}
+#feature .fea:nth-child(5) h5{
+    color: rgb(165, 129, 233);
+}
+#feature .fea:nth-child(6) h5{
+    color: rgb(243, 231, 231);
+}
+
+
+.campus{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px; 
+    
+}
+.campus-col img{
+    width: 80%;
+    margin-bottom: 5%;
+    border-radius: 15px;
+    transition: .5s;
+
+}
+.campus-col{
+    flex-basis: 32pix;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+}
+.layer{
+    color: blue;
+}
+.campus-col img:hover{
+    box-shadow:0px 0px 20px 0px rgb(175, 23, 23);
+    width: 90%;
+}
+.row-ok{
+    margin-top: 3.5%;
+    display: flex;
+    justify-content:space-around;
+    flex-direction: row;
+    flex: auto;
+    flex-basis: auto;
+}
